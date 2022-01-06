@@ -18,7 +18,7 @@ print(user2)
 def give_dolzh(masters, *persons):
     """give_dolzhnost"""
     for person in persons:
-        print("Mehan " + person.title() + " give dolzhnost " + masters)
+        print("Mehan " + person.upper() + " recieve dolzhnost " + masters)
 
 give_dolzh("PD", "Ivanov", "Petrov")
 give_dolzh("PDS", "Sidorov")
