@@ -7,3 +7,5 @@ while True:
     if input() == " ":
         break
 
+
+print("jn")
